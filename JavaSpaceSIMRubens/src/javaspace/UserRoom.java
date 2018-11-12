@@ -1,5 +1,6 @@
 package javaspace;
 
+import java.util.ArrayList;
 import net.jini.core.entry.Entry;
 
 /**
@@ -10,7 +11,7 @@ import net.jini.core.entry.Entry;
 public class UserRoom implements Entry {
     
     public String name;
-    public String room;
+    public String roomName;
     
     public UserRoom() {
         
